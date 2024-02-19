@@ -9,7 +9,7 @@ export class MyDate {
     this.day = day;
   }
 
-  printFormar(): string {
+  printForma(): string {
     return `${this.day}/${this.month}/${this.year}`;
   }
 

@@ -9,7 +9,7 @@ export class MyDate {
     this.day = day;
   }
 
-  printFormar(): string {
+  printFormat(): string {
     return `${this.day}/${this.month}/${this.year}`;
   }
 
@@ -28,16 +28,16 @@ export class MyDate {
 
 const myDate = new MyDate(2022, 3, 15);
 
-console.log("🚀 ~ format:", myDate.printFormar())
+console.log("🚀 ~ format:", myDate.printFormat())
 
 const addDays = myDate.add(3, 'days');
-console.log("🚀 ~ addDays:", myDate.printFormar())
+console.log("🚀 ~ addDays:", myDate.printFormat())
 
 const addMouths = myDate.add(3, 'mouths');
-console.log("🚀 ~ addMouths:", myDate.printFormar())
+console.log("🚀 ~ addMouths:", myDate.printFormat())
 
 const addYears = myDate.add(3, 'years');
-console.log("🚀 ~ addYears:", myDate.printFormar())
+console.log("🚀 ~ addYears:", myDate.printFormat())
 
 
 console.log("🚀 ~ myDate:", myDate.day)
