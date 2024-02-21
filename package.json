@@ -22,6 +22,7 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
+    "@faker-js/faker": "^6.0.0-alpha.5",
     "axios": "^1.6.7"
   }
 }
