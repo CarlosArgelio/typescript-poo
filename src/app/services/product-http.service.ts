@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 import { UpdateProductDto, CreateProductDto } from "../dtos/product.dto";
-import { ProductService } from "./../models/product-service.model";
+import { ProductService } from "../models/product-service.model";
 import { Product } from "../models/product.model";
 
 export class ProductHttpService implements ProductService  {

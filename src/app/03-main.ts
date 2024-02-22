@@ -1,4 +1,4 @@
-import { ProductHttpService } from "./services/product-htpp.services";
+import { ProductHttpService } from "./services/product-http.service";
 
 (async() => {
   const productService = new ProductHttpService();

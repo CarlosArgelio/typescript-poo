@@ -1,4 +1,4 @@
-import { ProductMemoryServices } from "./services/product-memory.services";
+import { ProductMemoryServices } from "./services/product-memory.service";
 
 const productService = new ProductMemoryServices();
 
